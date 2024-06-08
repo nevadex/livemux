@@ -8,11 +8,11 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/gwuhaolin/livego/configure"
-	"github.com/gwuhaolin/livego/protocol/api"
-	"github.com/gwuhaolin/livego/protocol/hls"
-	"github.com/gwuhaolin/livego/protocol/httpflv"
-	"github.com/gwuhaolin/livego/protocol/rtmp"
+	"github.com/nevadex/livemux/configure"
+	"github.com/nevadex/livemux/protocol/api"
+	"github.com/nevadex/livemux/protocol/hls"
+	"github.com/nevadex/livemux/protocol/httpflv"
+	"github.com/nevadex/livemux/protocol/rtmp"
 
 	log "github.com/sirupsen/logrus"
 )

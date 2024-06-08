@@ -1,4 +1,4 @@
-module github.com/gwuhaolin/livego
+module github.com/nevadex/livemux
 
 go 1.13
 

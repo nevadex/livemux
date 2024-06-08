@@ -8,12 +8,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gwuhaolin/livego/utils/uid"
+	"github.com/nevadex/livemux/utils/uid"
 
-	"github.com/gwuhaolin/livego/av"
-	"github.com/gwuhaolin/livego/configure"
-	"github.com/gwuhaolin/livego/container/flv"
-	"github.com/gwuhaolin/livego/protocol/rtmp/core"
+	"github.com/nevadex/livemux/av"
+	"github.com/nevadex/livemux/configure"
+	"github.com/nevadex/livemux/container/flv"
+	"github.com/nevadex/livemux/protocol/rtmp/core"
 
 	log "github.com/sirupsen/logrus"
 )
@@ -283,7 +283,6 @@ func (v *VirWriter) DropPacket(pktQue chan *av.Packet, info av.Info) {
 	log.Debug("packet queue len: ", len(pktQue))
 }
 
-//
 func (v *VirWriter) Write(p *av.Packet) (err error) {
 	err = nil
 
